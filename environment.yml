@@ -1,0 +1,15 @@
+name: bee-abdomen-reidentification
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12
+  - black
+  - flake8
+  - isort
+  - pip
+  - typer
+  - loguru
+  - tqdm
+  - pip:
+    - python-dotenv
+    - -e .
